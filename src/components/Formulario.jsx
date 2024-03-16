@@ -98,7 +98,7 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
                     <input
                         id="mascota"
                         type="text"
-                        placeholder="Peso, IMC, cintura, porcentaje de grasa corporal"
+                        placeholder="I.M.C. cintura, % grasa corporal"
                         className="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
                         value={nombre}
                         onChange={ (e) => setNombre(e.target.value) }
@@ -112,7 +112,7 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
                     <input
                         id="propietario"
                         type="text"
-                        placeholder="Colesterol total, HDL, LDL, Trigliceridos, A. Úrico"
+                        placeholder="HDL, LDL, Trigliceridos, A. Úrico"
                         className="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
                         value={propietario}
                         onChange={ (e) => setPropietario(e.target.value) }
@@ -126,7 +126,7 @@ const Formulario = ({ pacientes, setPacientes, paciente, setPaciente }) => {
                     <input
                         id="email"
                         type="text"
-                        placeholder="Presión arterial, glucemias, hemoglobina glicada, insulina."
+                        placeholder="Presión, glucemia, hemoglob glic."
                         className="border-2 w-full p-2 mt-2 placeholder-gray-400 rounded-md"
                         value={email}
                         onChange={ (e) => setEmail(e.target.value) }
